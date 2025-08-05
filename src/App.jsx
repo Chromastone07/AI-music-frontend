@@ -3,7 +3,7 @@ import { Container, Typography, Button, Box, CircularProgress, Paper, LinearProg
 import MusicNoteIcon from '@mui/icons-material/MusicNote';
 import UploadFileIcon from '@mui/icons-material/UploadFile';
 
-const API_URL = 'http://127.0.0.1:8000';
+const API_URL = 'https://ai-music-backend-3829.onrender.com';
 
 function App() {
   const [jobId, setJobId] = useState(null);
