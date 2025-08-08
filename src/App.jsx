@@ -3,7 +3,8 @@ import React, { useState } from 'react';
 import { Container, Typography, Button, Box, CircularProgress, Paper } from '@mui/material';
 import MusicNoteIcon from '@mui/icons-material/MusicNote';
 
-const API_URL = 'https://ai-music-backend-3829.onrender.com';
+
+const API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000';
 
 function App() {
   const [isLoading, setIsLoading] = useState(false);
